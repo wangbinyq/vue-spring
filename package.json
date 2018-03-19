@@ -1,16 +1,17 @@
 {
   "name": "vue-motion",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "wangb <wangb@nextechat.com>",
-  "private": true,
+  "version": "0.1.0",
+  "description": "vue version of react-motion: A spring that solves your animation problems.",
+  "author": "wangb <wangb@wangbinyq.com>",
+  "main": "./dist/vue-motion.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "bundle": "webpack --config webpack.bundle.js"
   },
   "dependencies": {
     "vue": "^2.5.2",

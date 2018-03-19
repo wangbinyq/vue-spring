@@ -1,27 +1,20 @@
 # vue-motion
 
-> A Vue.js project
+> A very naive Vue implemation of [react-motion#v0.1.0](https://github.com/chenglou/react-motion/tree/v0.1.0)
 
-## Build Setup
+## Install
 
 ``` bash
-# install dependencies
-npm install
+// npm
+npm install --save vue-motion
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
+// yarn
+yarn add vue-motion
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Demo
+[https://wangbinyq.github.io/vue-motion/]
+
+## Usage
+
+Please reference [react-motion#v0.1.0](https://github.com/chenglou/react-motion/tree/v0.1.0)
