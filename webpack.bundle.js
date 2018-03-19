@@ -8,8 +8,8 @@ module.exports = {
   }, 
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'vue-motion.js',
-    library: 'vue-motion',
+    filename: 'vue-spring.js',
+    library: 'vue-spring',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },

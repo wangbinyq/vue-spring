@@ -1,9 +1,9 @@
 {
-  "name": "vue-motion",
+  "name": "vue-spring",
   "version": "0.1.0",
   "description": "vue version of react-motion: A spring that solves your animation problems.",
   "author": "wangb <wangb@wangbinyq.com>",
-  "main": "./dist/vue-motion.js",
+  "main": "./dist/vue-spring.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",

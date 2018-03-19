@@ -1,4 +1,4 @@
-# vue-motion
+# vue-spring
 
 > A very naive Vue implemation of [react-motion#v0.1.0](https://github.com/chenglou/react-motion/tree/v0.1.0)
 
@@ -6,20 +6,20 @@
 
 ``` bash
 // npm
-npm install --save vue-motion
+npm install --save vue-spring
 
 // yarn
-yarn add vue-motion
+yarn add vue-spring
 ```
 
 ## Demo
-[https://wangbinyq.github.io/vue-motion/]
+[https://wangbinyq.github.io/vue-spring/]
 
 ## Usage
 
 ### Spring
 ```js
-import Spring from 'vue-motion'
+import Spring from 'vue-spring'
 ```
 
 For details, please reference [react-motion#v0.1.0](https://github.com/chenglou/react-motion/tree/v0.1.0)
