@@ -13,7 +13,7 @@ yarn add vue-spring
 ```
 
 ## Demo
-[https://wangbinyq.github.io/vue-spring/]
+(Demo)[https://wangbinyq.github.io/vue-spring/public/index.html]
 
 ## Usage
 
