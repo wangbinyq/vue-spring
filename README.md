@@ -17,4 +17,9 @@ yarn add vue-motion
 
 ## Usage
 
-Please reference [react-motion#v0.1.0](https://github.com/chenglou/react-motion/tree/v0.1.0)
+### Spring
+```js
+import Spring from 'vue-motion'
+```
+
+For details, please reference [react-motion#v0.1.0](https://github.com/chenglou/react-motion/tree/v0.1.0)
