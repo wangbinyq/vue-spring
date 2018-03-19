@@ -62,21 +62,21 @@ export default {
       background-size: 50px;
     }
     .ball-0 {
-      background-image: url(~@/assets/0.jpg);
+      background-image: url(../assets/0.jpg);
     }
     .ball-1 {
-      background-image: url(~@/assets/1.jpg);
+      background-image: url(../assets/1.jpg);
     }
     .ball-2 {
-      background-image: url(~@/assets/2.jpg);
+      background-image: url(../assets/2.jpg);
     }
     .ball-3 {
-      background-image: url(~@/assets/3.jpg);
+      background-image: url(../assets/3.jpg);
     }
     .ball-4 {
-      background-image: url(~@/assets/4.jpg);
+      background-image: url(../assets/4.jpg);
     }
     .ball-5 {
-      background-image: url(~@/assets/5.jpg);
+      background-image: url(../assets/5.jpg);
     }
 </style>
