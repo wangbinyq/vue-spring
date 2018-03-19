@@ -67,11 +67,11 @@ export default {
         }
       }
     },
-    handleMouseMove ({ pageX, pageY }) {
+    handleMouseMove ({ pageX, pageY, currentTarget: {offsetLeft, offsetTop} }) {
       const {order, lastPress, isPressed, delta: [dx, dy]} = this
       if (isPressed) {
-        const col = clamp(Math.floor((pageX - left) / width), 0, 2)
-        const row = clamp(Math.floor((pageY - top) / height), 0, Math.floor(count / 3))
+        const col = clamp(Math.floor((pageX - left - offsetLeft) / width), 0, 2)
+        const row = clamp(Math.floor((pageY - top - offsetTop - 110) / height), 0, Math.floor(count / 3))
         const index = row * 3 + col
         const newOrder = reinsert(order, order.indexOf(lastPress), index)
         this.mouse = [pageX - dx, pageY - dy]

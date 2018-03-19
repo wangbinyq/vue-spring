@@ -36,7 +36,7 @@ export default {
     },
     handleMouseMove (e) {
       const target = e.currentTarget
-      this.mouse = [e.pageX - target.offsetLeft, e.pageY - target.offsetTop]
+      this.mouse = [e.pageX - target.offsetLeft, e.pageY - target.offsetTop - 110]
       this.$refs.spring.raf(true, false)
     }
   },
